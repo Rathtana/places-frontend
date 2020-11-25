@@ -6,15 +6,15 @@ const Users = () => {
     //dummy array of users 
     const USERS = [
         {
-            id: '1',
+            id: 'u1',
             name: 'user1',
-            image: 'https://lh3.googleusercontent.com/proxy/QSQAUUB5_0LxmTyVIPGxlbS5QWrE6mGuPr0sNFB9nvWmkHmn5fSbmlFIn0Ib96fckfpYKRlpBuWogcq8h2w-2rxJru_2n7qFTAgeNrXqd-Mz8wKDcIq5oQ',
+            image: 'https://i.pinimg.com/originals/51/f6/fb/51f6fb256629fc755b8870c801092942.png',
             places: 3
         },
         {
-            id: '2',
+            id: 'u2',
             name: 'user2',
-            image: 'https://lh3.googleusercontent.com/proxy/QSQAUUB5_0LxmTyVIPGxlbS5QWrE6mGuPr0sNFB9nvWmkHmn5fSbmlFIn0Ib96fckfpYKRlpBuWogcq8h2w-2rxJru_2n7qFTAgeNrXqd-Mz8wKDcIq5oQ',
+            image: 'https://i.pinimg.com/originals/51/f6/fb/51f6fb256629fc755b8870c801092942.png',
             places: 2
         }
     ];
