@@ -28,7 +28,7 @@ const Modal = (props) => {
     return (
         <React.Fragment>
             {props.show && <Backdrop onClick={props.onCancel}/>}
-            <CSSTransition 
+            <CSSTransition
                 in={props.show} 
                 mountOnEnter 
                 unmountOnExit

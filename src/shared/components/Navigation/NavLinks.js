@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 import './NavLinks.css'
 
 const NavLinks = () => {
-    console.log('render in navlink');
     return (
         <ul className="nav-links">
             <li>

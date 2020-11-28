@@ -13,7 +13,7 @@ const UserPlaces = () => {
         address: '20 W 34th St, New York, NY 10001',
         location: {
             lat: 40.7484746,
-            long: -73.9897601
+            lng: -73.9897601
         },
         creator: 'u1'
     },
@@ -25,7 +25,7 @@ const UserPlaces = () => {
         address: '20 W 34th St, New York, NY 10001',
         location: {
             lat: 40.7484746,
-            long: -73.9897601
+            lng: -73.9897601
         },
         creator: 'u2'
     }
