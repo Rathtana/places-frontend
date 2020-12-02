@@ -28,6 +28,13 @@ const Input = (props) => {
         isValid: false,
         isTouched: false 
     });
+
+    const { id, onInput } = props;
+    const { value, isValid } = inputState;
+
+    useEffect(() => {
+        onInput(id, value, isValid)
+    }, [id, value, isValid, onInput])
     
     //store and validate input value 
     const changeHandler = e => {
